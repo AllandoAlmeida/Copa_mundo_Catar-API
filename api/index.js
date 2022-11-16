@@ -1,3 +1,3 @@
-import { app } from './setup.js'
+import { api } from './setup.js'
 
-app.listen(3000)
+api.listen(3000)

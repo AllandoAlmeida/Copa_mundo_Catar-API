@@ -9,7 +9,7 @@ export const create = async ctx => {
     }
     
     const [type, token] = ctx.headers.authorization.split(" ")
-    console.log({type, token})
+    
 
     try {
         const data = jwt.verify(token, process.env.JWT_SECRET)
